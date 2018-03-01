@@ -1,0 +1,27 @@
+--cpu=Cortex-M4.fp
+"adc_to_dac\startup_stm32f411xe.o"
+"adc_to_dac\system_stm32f4xx.o"
+"adc_to_dac\gpio_driver.o"
+"adc_to_dac\stm32f4xx_hal_msp.o"
+"adc_to_dac\stm32f4xx_it.o"
+"adc_to_dac\main.o"
+"adc_to_dac\stm32f4xx_hal_dma.o"
+"adc_to_dac\stm32f4xx_hal_dma_ex.o"
+"adc_to_dac\stm32f4xx_hal_flash_ex.o"
+"adc_to_dac\stm32f4xx_hal_cortex.o"
+"adc_to_dac\stm32f4xx_hal_adc.o"
+"adc_to_dac\stm32f4xx_hal_rcc.o"
+"adc_to_dac\stm32f4xx_hal_rcc_ex.o"
+"adc_to_dac\stm32f4xx_hal_pwr_ex.o"
+"adc_to_dac\stm32f4xx_hal_flash.o"
+"adc_to_dac\stm32f4xx_hal_flash_ramfunc.o"
+"adc_to_dac\stm32f4xx_hal_gpio.o"
+"adc_to_dac\stm32f4xx_hal_pwr.o"
+"adc_to_dac\stm32f4xx_hal_tim_ex.o"
+"adc_to_dac\stm32f4xx_hal_tim.o"
+"adc_to_dac\stm32f4xx_hal.o"
+"adc_to_dac\stm32f4xx_hal_adc_ex.o"
+--library_type=microlib --strict --scatter "ADC_to_DAC\ADC_to_DAC.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ADC_to_DAC.map" -o ADC_to_DAC\ADC_to_DAC.axf

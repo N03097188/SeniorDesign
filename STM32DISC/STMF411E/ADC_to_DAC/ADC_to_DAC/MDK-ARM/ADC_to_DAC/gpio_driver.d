@@ -1,0 +1,10 @@
+adc_to_dac\gpio_driver.o: gpio_driver.c
+adc_to_dac\gpio_driver.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+adc_to_dac\gpio_driver.o: gpio_driver.h
+adc_to_dac\gpio_driver.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h
+adc_to_dac\gpio_driver.o: ../Drivers/CMSIS/Include/core_cm4.h
+adc_to_dac\gpio_driver.o: ../Drivers/CMSIS/Include/core_cmInstr.h
+adc_to_dac\gpio_driver.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+adc_to_dac\gpio_driver.o: ../Drivers/CMSIS/Include/core_cmFunc.h
+adc_to_dac\gpio_driver.o: ../Drivers/CMSIS/Include/core_cmSimd.h
+adc_to_dac\gpio_driver.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
