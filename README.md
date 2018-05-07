@@ -1,7 +1,7 @@
 <img src="https://www.newpaltz.edu/media/identity/logos/newpaltzlogo.jpg" width="300">
 
-# Spring 2018 Embedded Linux class
-This repository documents my class work and projects done for **CPS342**
+# Spring 2018 Senior Design: "The Void"
+This repository documents the source code for The Void **EGG409**
 1. **Personal Information:**
 
    Name: *Minh Nguyen* 
